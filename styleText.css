@@ -1,0 +1,9 @@
+.tulisan_warna {
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-color: currentColor;
+    text-decoration-style: solid;
+    letter-spacing: 5px; /* Menambahkan jarak antar karakter sebesar 5px */
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Layouting</title>
+    <style>
+        a {
+            background-color: pink;
+            width: 200px;
+            height: 200px;
+            display: inline-block;
+        }
+        h1, h2, p {
+            background-color: lightgreen;
+        }
+        .main {
+            width: 600px; /* Retained from original snippet */
+            background-color: pink; /* Overridden by new snippet */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Selamat Datang Di Website Kami</h1>
+    </div>
+    <div class="navigasi">
+        <h2>Daftar Link</h2>
+        <a href="#">Link 1</a>
+        <a href="#">Link 2</a>
+        <a href="#">Link 3</a>
+        <a href="#">Link 4</a>
+    </div>
+    <div class="main">
+        <h2>TEKNIK INFORMATIKA</h2>
+        <img src="img/bunga1.jpg">
+        <!-- Konten lainnya seperti paragraf (p) juga akan mendapatkan background-color lightgreen -->
+        <!-- Additional content can go here -->
+    </div>
+    <!-- Bagian footer -->
+    <!-- Additional footer content can go here -->
+</body>
+</html>
